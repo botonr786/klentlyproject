@@ -1,0 +1,230 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@100;300;400;500;700;900&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Signika+Negative:wght@300;400;600;700&display=swap');
+
+* {
+    /* font-family: 'Noto Sans JP', sans-serif; */
+    font-family: 'Signika Negative', sans-serif;
+}
+h1{
+    font-weight: 900;
+    font-size: 42px;
+}
+header {
+    align-items: center;
+    /* background-color: red; */
+    height: 100px;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo-brand {
+    height: 100%;
+    /* background-color: blue; */
+}
+
+header img {
+    height: 100%;
+}
+
+.btns {
+    display: flex;
+    /* justify-content: space-between; */
+}
+
+.login {
+    padding: 5px 10px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #000;
+    /* padding: 10px; */
+    /* background-color: beige; */
+}
+
+.try {
+    text-decoration: none;
+    padding: 5px 10px;
+    background-color: blue;
+    margin-left: 10px;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+}
+
+/* hero section  */
+#hero {
+    /* padding: 10px; */
+    height: calc(100vh - 100px);
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#hero h1 {
+    font-size: 60px;
+    /* text-align: justify; */
+}
+
+.btn-get {
+    padding: 10px 30px;
+    background-color: rgb(40, 40, 241);
+    margin-top: 20px;
+    text-transform: uppercase;
+    color: #fff;
+    cursor: pointer;
+    /* width: 100px; */
+}
+
+/* end hero section  */
+
+/* about section  */
+#about {
+    padding: 60px 0;
+    height: 95vh;
+    background-color: rgba(236, 241, 241, 0.3);
+}
+
+.card-1 {
+    /* background-color: red; */
+    padding: 20px;
+    display: flex;
+}
+
+.icon-1 {
+    padding: 10px 5px;
+    width: 15%;
+    background-color: beige;
+    height: 90px;
+}
+
+.content-1 {
+    padding: 10px;
+    padding-left: 20px;
+    width: 85%;
+}
+
+.cont-head {
+    line-height: 25px;
+    font-size: 22px;
+    font-weight: bold;
+    color: rgb(43, 43, 93);
+}
+
+.mt-10 {
+    margin-top: 130px;
+}
+
+.content-1 p {
+    font-size: 18px;
+}
+
+/* end about section  */
+#portfolio {
+    /* height: 100vh; */
+    padding: 60px 0;
+}
+
+.fs-18 {
+    font-size: 20px;
+}
+
+.hola-2 {
+    /* background-color: red; */
+    padding: 0;
+}
+
+.hola-2 img {
+    margin-left: -40px;
+    width: 105%;
+    height: 100%;
+}
+
+.sendx {
+    padding: 5px 20px;
+    background-color: rgb(137, 206, 206);
+    width: 68%;
+    font-weight: bold;
+    border-radius: 20px;
+    letter-spacing: .5px;
+    font-size: 16px;
+}
+
+.sendy {
+    padding: 5px 20px;
+    background-color: rgb(163, 231, 190);
+    width: 86%;
+    font-weight: bold;
+    border-radius: 20px;
+    letter-spacing: .5px;
+    font-size: 16px;
+}
+
+.hola-3 {
+    width: 110%;
+    height: 100%;
+    background-color: red;
+    /* background-size: cover; */
+}
+
+.hola-3 img {
+    width: 100%;
+    height: 100%;
+}
+
+.kkx {
+    padding-left: 50px;
+}
+.kl{
+    background-color: rgb(218, 163, 243);
+}
+
+/* #sliders  */
+#sliders {
+    padding: 60px 0;
+    background-color: rgba(221, 230, 230, 0.5);
+    height: 110vh;
+}
+
+.box-1 {
+    /* background-color: #fff; */
+    height: 460px;
+    padding: 20px;
+}
+
+.hola {
+    height: 100%;
+    background-color: #fff;
+    border-radius: 15px;
+}
+
+.slide-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.arrow-btns {
+    cursor: pointer;
+    width: 60px;
+    height: 60px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* end sliders  */
+
+/* ending  */
+#ending {
+    padding: 70px 0;
+}
+
+.btnx {
+    padding: 10px 20px;
+    text-transform: uppercase;
+    margin-top: 20px;
+}
